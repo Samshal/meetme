@@ -29,7 +29,7 @@ var interfaceConfig = {
     DEFAULT_BACKGROUND: '#474747',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
     DEFAULT_LOGO_URL: 'images/watermark.svg',
-    DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Jitster',
+    DEFAULT_REMOTE_DISPLAY_NAME: 'Partner',
     DEFAULT_WELCOME_PAGE_LOGO_URL: 'images/watermark.svg',
 
     DISABLE_DOMINANT_SPEAKER_INDICATOR: false,
@@ -83,6 +83,7 @@ var interfaceConfig = {
      * Hide the logo on the deep linking pages.
      */
     HIDE_DEEP_LINKING_LOGO: false,
+    DISABLE_DEEP_LINKING: true,
 
     /**
      * Hide the invite prompt in the header when alone in the meeting.
@@ -263,7 +264,8 @@ var interfaceConfig = {
     // Allow all above example options to include a trailing comma and
     // prevent fear when commenting out the last value.
     // eslint-disable-next-line sort-keys
-    makeJsonParserHappy: 'even if last key had a trailing comma'
+    makeJsonParserHappy: 'even if last key had a trailing comma',
+    disableDeepLinking: true
 
     // No configuration value should follow this line.
 };

@@ -1,3 +1,3 @@
-//$("#header-text-title").text("Emmetblue Meet");
+$("#header-text-title").text("meetme.ng");
 
 //console.log($("#header-text-title").text());
