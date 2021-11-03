@@ -9,7 +9,7 @@
  */
 
 var interfaceConfig = {
-    APP_NAME: 'Jitsi Meet',
+    APP_NAME: 'meetme.ng',
     AUDIO_LEVEL_PRIMARY_COLOR: 'rgba(255,255,255,0.4)',
     AUDIO_LEVEL_SECONDARY_COLOR: 'rgba(255,255,255,0.2)',
 
@@ -66,7 +66,7 @@ var interfaceConfig = {
      */
     DISABLE_VIDEO_BACKGROUND: false,
 
-    DISPLAY_WELCOME_FOOTER: true,
+    DISPLAY_WELCOME_FOOTER: false,
     DISPLAY_WELCOME_PAGE_ADDITIONAL_CARD: false,
     DISPLAY_WELCOME_PAGE_CONTENT: false,
     DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: false,
@@ -89,10 +89,10 @@ var interfaceConfig = {
      */
     HIDE_INVITE_MORE_HEADER: false,
 
-    JITSI_WATERMARK_LINK: 'https://jitsi.org',
+    JITSI_WATERMARK_LINK: 'https://meetme.ng',
 
     LANG_DETECTION: true, // Allow i18n to detect the system language
-    LIVE_STREAMING_HELP_LINK: 'https://jitsi.org/live', // Documentation reference for the live streaming feature.
+    LIVE_STREAMING_HELP_LINK: '', // Documentation reference for the live streaming feature.
     LOCAL_THUMBNAIL_RATIO: 16 / 9, // 16:9
 
     /**
@@ -104,13 +104,13 @@ var interfaceConfig = {
     MAXIMUM_ZOOMING_COEFFICIENT: 1.3,
 
     /**
-     * Whether the mobile app Jitsi Meet is to be promoted to participants
+     * Whether the mobile app meetme.ng is to be promoted to participants
      * attempting to join a conference in a mobile Web browser. If
      * {@code undefined}, defaults to {@code true}.
      *
      * @type {boolean}
      */
-    MOBILE_APP_PROMO: true,
+    MOBILE_APP_PROMO: false,
 
     /**
      * Specify custom URL for downloading android mobile app.
@@ -127,7 +127,7 @@ var interfaceConfig = {
      */
     MOBILE_DOWNLOAD_LINK_IOS: 'https://itunes.apple.com/us/app/jitsi-meet/id1165103905',
 
-    NATIVE_APP_NAME: 'Jitsi Meet',
+    NATIVE_APP_NAME: 'meetme.ng',
 
     // Names of browsers which should show a warning stating the current browser
     // has a suboptimal experience. Browsers which are not listed as optimal or
@@ -136,14 +136,14 @@ var interfaceConfig = {
     OPTIMAL_BROWSERS: [ 'chrome', 'chromium', 'firefox', 'nwjs', 'electron', 'safari' ],
 
     POLICY_LOGO: null,
-    PROVIDER_NAME: 'Jitsi',
+    PROVIDER_NAME: 'Harmony Innovation Hub',
 
     /**
      * If true, will display recent list
      *
      * @type {boolean}
      */
-    RECENT_LIST_ENABLED: true,
+    RECENT_LIST_ENABLED: false,
     REMOTE_THUMBNAIL_RATIO: 1, // 1:1
 
     SETTINGS_SECTIONS: [ 'devices', 'language', 'moderator', 'profile', 'calendar', 'sounds' ],
@@ -172,7 +172,7 @@ var interfaceConfig = {
      * If indicated some of the error dialogs may point to the support URL for
      * help.
      */
-    SUPPORT_URL: 'https://community.jitsi.org/',
+    SUPPORT_URL: 'https://meetme.ng',
 
     // Browsers, in addition to those which do not fully support WebRTC, that
     // are not supported and should show the unsupported browser page.
